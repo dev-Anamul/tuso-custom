@@ -1,0 +1,54 @@
+import React from "react";
+import Button from "../butoon/Button";
+
+function SingleDetails() {
+  return (
+    <div>
+      <div className="container border-y border-gray-500 py-6 space-y-5">
+        <div className="flex justify-end">
+          <Button text={"Back"} padding="10" />
+        </div>
+        <div className="flex justify-between font-bold capitalize">
+          <div className="flex space-x-6">
+            <p>
+              <span>system:</span>
+              <span>SC+v.1.5</span>
+            </p>
+            <p>
+              <span>Ticket No:</span>
+              <span>1005</span>
+            </p>
+          </div>
+          <div className="flex space-x-6">
+            <p>
+              <span>date Reported:</span>
+              <span>10 Aug 2022</span>
+            </p>
+            <p>
+              <span>Status:</span>
+              <span>Open</span>
+            </p>
+          </div>
+        </div>
+        <div className="text-justify">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            laudantium soluta maiores consequuntur amet aliquid voluptatibus
+            velit porro quod quaerat ab similique vero unde nulla autem
+            repellendus deleniti voluptatum ratione distinctio nisi sint, itaque
+            officia praesentium dolorum. Ut eum optio quibusdam nobis animi quia
+            obcaecati, laborum at voluptatum ullam ex eveniet, soluta quam omnis
+            quasi repellat distinctio culpa nihil voluptate iure eius voluptates
+            explicabo. Exercitationem nihil dolorem illo aperiam nobis soluta
+            quod eum libero ab eligendi rerum consequuntur dolorum dolores ad,
+            vel neque optio qui voluptatem atque? Cum pariatur quas, atque saepe
+            doloremque sint quidem hic quae officiis nemo corporis sed libero
+            nulla itaque nihil! Maiores praesentium velit ratione harum.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default SingleDetails;
