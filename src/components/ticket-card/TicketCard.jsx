@@ -3,10 +3,10 @@ import Button from "../butoon/Button";
 
 function TicketCard() {
   return (
-    <div className="border border-gray-500 py-5 px-10  rounded mb-5">
+    <div className="border border-gray-500 py-5 px-2 md:px-10  rounded mb-5">
       <div className="space-y-5">
-        <div className="flex justify-between font-bold capitalize">
-          <div className="flex space-x-6">
+        <div className="flex justify-between font-bold capitalize text-sm md:text-base">
+          <div className="md:flex md:space-x-6">
             <p>
               <span>system:</span>
               <span>SC+v.1.5</span>
@@ -16,7 +16,7 @@ function TicketCard() {
               <span>1005</span>
             </p>
           </div>
-          <div className="flex space-x-6">
+          <div className="md:flex md:space-x-6">
             <p>
               <span>date Reported:</span>
               <span>10 Aug 2022</span>

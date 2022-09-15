@@ -1,36 +1,37 @@
 import React from "react";
-import Button from "../butoon/Button";
 
 function SingleDetails() {
   return (
     <div>
       <div className="container border-y border-gray-500 py-6 space-y-5">
-        <div className="flex justify-end">
-          <Button text={"Back"} padding="10" />
+        <div className="flex justify-end pr-4">
+          <button className="border py-2 px-4 lg:px-10 rounded border-gray-500">
+            Back
+          </button>
         </div>
-        <div className="flex justify-between font-bold capitalize">
-          <div className="flex space-x-6">
+        <div className="flex justify-between font-bold lg:text-base text-sm capitalize px-2 lg:px-0">
+          <div className="lg:flex lg:space-x-6">
             <p>
               <span>system:</span>
-              <span>SC+v.1.5</span>
+              <span> SC+v.1.5</span>
             </p>
             <p>
               <span>Ticket No:</span>
-              <span>1005</span>
+              <span> 1005</span>
             </p>
           </div>
-          <div className="flex space-x-6">
+          <div className="lg:flex lg:space-x-6">
             <p>
               <span>date Reported:</span>
-              <span>10 Aug 2022</span>
+              <span> 10 Aug 2022</span>
             </p>
             <p>
               <span>Status:</span>
-              <span>Open</span>
+              <span> Open</span>
             </p>
           </div>
         </div>
-        <div className="text-justify">
+        <div className="text-justify px-3 lg:px-0">
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
             laudantium soluta maiores consequuntur amet aliquid voluptatibus

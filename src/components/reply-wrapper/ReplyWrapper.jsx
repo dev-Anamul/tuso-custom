@@ -4,7 +4,7 @@ import ReplyCard from "../reply/ReplyCard";
 function ReplyWrapper() {
   return (
     <div>
-      <div className="container bg-slate-200 mt-5 rounded py-6 px-24">
+      <div className="container bg-slate-200 mt-5 rounded py-6 lg:px-24 px-3">
         <ReplyCard
           name={"pulak"}
           date="20 aug 2022"

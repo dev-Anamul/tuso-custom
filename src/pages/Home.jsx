@@ -9,10 +9,18 @@ function Home() {
   return (
     <>
       <Header />
-      <SectionHeader text={"incidents"} />
-      <SearchBox />
-      <Pagination />
-      <TicketCardWrapper />
+      <div className="px-3">
+        <SectionHeader text={"incidents"} />
+      </div>
+      <div className="px-3">
+        <SearchBox />
+      </div>
+      <div className="px-3">
+        <Pagination />
+      </div>
+      <div className="px-3">
+        <TicketCardWrapper />
+      </div>
     </>
   );
 }
